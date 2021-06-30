@@ -6,7 +6,7 @@ resource "mongodbatlas_cluster" "cluster-test-single" {
   replication_specs {
     num_shards = 1
     regions_config {
-      region_name     = "CENTRAL_US"
+      region_name     = var.atlas_region
       electable_nodes = 3
       priority        = 7
       read_only_nodes = 0
