@@ -28,7 +28,7 @@ on darwin_amd64
 
 Now create **terraform.tfvars** file with all the variable values and make sure **not to commit it**.
 
-**3\. Review the Terraform plan. **
+**3\. Review the Terraform plan.**
 
 Execute the below command and ensure you are happy with the plan.
 
